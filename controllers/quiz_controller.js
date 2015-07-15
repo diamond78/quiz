@@ -11,3 +11,9 @@ if (req.query.respuesta === 'Roma'){
 res.render('quizes/answer', {respuesta: 'Incorrecto'});
 }
 };
+
+//GET /autor
+
+exports.autor = function(req, res){
+res.render('autor');
+};
